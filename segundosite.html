@@ -9,27 +9,49 @@
     body{
         font-family: 'Times New Roman', Times, serif;
         font-size: medium;
-        background-color: pink;
+        background-color: pink;  
     }
 
     table{
         border:3px solid black;
         border-collapse: collapse;
+        width: 100%;
+        margin-bottom : .5em;
+        table-layout: fixed;
+        text-align: center;
     }
 
     td{
         border: 2px solid black;
         padding: 10px;
+        background-color: white;
+        padding: .7em;
+        margin: 0;
+        text-align: center;
     }
 
     th{
         border: 2px solid black;
         padding: 10px;
+        background-color: plum;
+    }
+
+    .video{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1{
+        display:flex;
+        align-items: center;
+        justify-content: center;
     }
 
 </style>
 </head>
 <body>
+    <h1>Seja bem-vindo!</h1>
     <table>
         <tr>
             <th>Nome :</th>
@@ -44,7 +66,7 @@
             <td>Técnico em Administração </td>
         </tr>
         <tr>
-            <td>Laret /td>
+            <td>Laret </td>
             <td>Recepcionista </td>
             <td>21 anos </td>
             <td>Ensino médio completo </td>
@@ -56,7 +78,10 @@
         <li><a href="https://www.tendaatacado.com.br/produto/batata-comum-saco-10kg-1473?region_id=000018&gad_source=4&gclid=EAIaIQobChMIqaWjs5G2hQMVw0FIAB3qRggoEAQYAyABEgK1fPD_BwE" target="_blank">Batata</a></li>
         <li><a href="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQutGutFWj21H4B3u3xFZRwtnvPfEgZi_PHyqeq2DjUVNumxe5tg0igSnbB-9Fv5hi7CmOBt4Wfg1r5F-i24M757Ywel4D_WjzknIBYY6aK-QS52lp6KL9Vo37NXPIAdIE_zv1XnAc&usqp=CAc" target="_blank">Macarrão</a></li>
     </ul>
-    <iframe src="https://www.youtube.com/embed/eV4UcOAIP-4" frameborder="0" width="420" height="312"></iframe>
-    <iframe src="https://www.youtube.com/embed/Pg8RK1SnRRI" frameborder="0" width="420" height="312"></iframe>
+    <div class="video">
+        <iframe src="https://www.youtube.com/embed/sNqeP3f3PqU" frameborder="0" width="420" height="312"></iframe>
+        <iframe src="https://www.youtube.com/embed/eV4UcOAIP-4" frameborder="0" width="420" height="312"></iframe>
+    </div>
+<footer><a href="//pt.stackoverflow.com/questions/253108/centralizar-uma-tabela-html" target="_blank">Referência</a></footer>
 </body>
 </html>
