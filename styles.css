@@ -1,26 +1,38 @@
 
+body{
+    background-color: black;
+}
+
 h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: aliceblue;
+    background-color: #A1080D;
+    border: 3px;
+    padding: 5px;
 }
 
 #cabe{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap:80px;
+    font-size: 25px;
 }
 
 #foo{
     display: flex;
     justify-content: center;
     align-items: center;
+    size: 100vw;
 }
 
 #inicio{
     display: flex;
     justify-content: center;
     align-items: center;
+    color:aliceblue;
 }
 
 #firstpic{
@@ -28,11 +40,27 @@ h1{
     height: 20vw;
 }
 
+#secondpic{
+    width: 20vw;
+    height: 20vw;
+}
+
+.pic{
+    gap: 50px;
+}
+
+h3{
+    color: aliceblue;
+}
+
 #video{
-    width: 100vw;
-    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+#videopart{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
