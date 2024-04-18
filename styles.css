@@ -1,0 +1,38 @@
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cabe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#foo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#firstpic{
+    width: 20vw;
+    height: 20vw;
+}
+
+#video{
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
