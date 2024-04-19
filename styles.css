@@ -44,7 +44,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    size: 100vw;
+    gap: 15vw;
+    border-top: 5px;
 }
 
 #inicio{
@@ -105,4 +106,21 @@ h3{
     justify-content: center;
     align-items: center; 
     gap:15vw;
+}
+
+#ref{
+    color: aliceblue;
+}
+
+#contrato{
+    color:aliceblue;
+
+}
+
+#fale{
+    color:aliceblue;
+}
+
+#regulamento{
+    color:aliceblue;
 }
