@@ -9,7 +9,6 @@ h1{
     align-items: center;
     color: aliceblue;
     background-color: #A1080D;
-    border: 3px;
     padding: 5px;
 }
 
@@ -19,6 +18,26 @@ h1{
     align-items: center;
     gap:80px;
     font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: #A1080D;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.home{
+    color:aliceblue;
+}
+
+.promo{
+    color: aliceblue;
+}
+
+.produtos{
+    color:aliceblue;
+}
+
+.parcerias{
+    color:aliceblue;
 }
 
 #foo{
@@ -45,6 +64,17 @@ h1{
     height: 20vw;
 }
 
+#threepic{
+    width: 20vw;
+    height: 20vw;
+}
+
+#fourpic{    
+    width: 27vw;
+    height: 20vw;
+    
+}
+
 .pic{
     gap: 50px;
 }
@@ -54,13 +84,25 @@ h3{
 }
 
 #video{
-    display: flex;
+    width: 640px; 
+    height: 360px;
+    display: block;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
+    margin: 0 auto;
 }
 
 #videopart{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.despicone{
+    color:beige;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap:15vw;
 }
