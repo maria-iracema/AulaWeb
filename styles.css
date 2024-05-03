@@ -1,126 +1,15 @@
-
 body{
-    background-color: black;
+    background-color: pink;
+
 }
 
-h1{
+#dados{
+    text-align: center;
+
+}
+
+form{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: aliceblue;
-    background-color: #A1080D;
-    padding: 5px;
-}
-
-#cabe{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:80px;
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    border-bottom: #A1080D;
-    border-width: 5px;
-    border-style: solid;
-}
-
-.home{
-    color:aliceblue;
-}
-
-.promo{
-    color: aliceblue;
-}
-
-.produtos{
-    color:aliceblue;
-}
-
-.parcerias{
-    color:aliceblue;
-}
-
-#foo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15vw;
-    border-top: 5px;
-}
-
-#inicio{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:aliceblue;
-}
-
-#firstpic{
-    width: 20vw;
-    height: 20vw;
-}
-
-#secondpic{
-    width: 20vw;
-    height: 20vw;
-}
-
-#threepic{
-    width: 20vw;
-    height: 20vw;
-}
-
-#fourpic{    
-    width: 27vw;
-    height: 20vw;
-    
-}
-
-.pic{
-    gap: 50px;
-}
-
-h3{
-    color: aliceblue;
-}
-
-#video{
-    width: 640px; 
-    height: 360px;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-}
-
-#videopart{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.despicone{
-    color:beige;
-    font-family: 'Times New Roman', Times, serif;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    gap:15vw;
-}
-
-#ref{
-    color: aliceblue;
-}
-
-#contrato{
-    color:aliceblue;
-
-}
-
-#fale{
-    color:aliceblue;
-}
-
-#regulamento{
-    color:aliceblue;
 }
