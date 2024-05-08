@@ -1,5 +1,5 @@
 body{
-    background-color: pink;
+    background-color: black;
 
 }
 
@@ -9,7 +9,23 @@ body{
 }
 
 form{
-    display: flex;
-    justify-content: center;
+    display: block;
+    justify-content:space-between;
     align-items: center;
+    text-align:center;
+}
+
+#cv{
+    text-align: center;
+    border-color: red;
+    border-width: 5px;
+    background-color:white;
+    color: black;
+}
+
+#info{
+    border-color: red;
+    border-width: 5px;
+    background-color:white;
+    color: black;
 }

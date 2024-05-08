@@ -7,35 +7,46 @@
     <title>Input</title>
 </head>
 <body>
-    <form action="">
-        <fieldset>
+    <form>
+        <fieldset id="info">
             <h3 id="dados">DADOS PESSOAIS</h3>
-            <label>NOME: <input type="text" id="nome"></label><br><br>
-            <label>DATA DE NASCIMENTO: <input type="date" id="data_nascimeto" min="1950-01-01" max="2024-01-01"></label><br><br>
+            <label>NOME: <input type="text" id="nome" required></label><br><br>
+            <label>DATA DE NASCIMENTO: <input type="date" id="data_nascimeto" min="1950-01-01" max="2024-01-01" required></label><br><br>
             <h4>Sexo:</h4>
             <label for="sex1"><input type="radio" name="image" id="imagem1">MASCULINO</label> <br><br>
             <label for="sex2"><input type="radio" name="image" id="imagem2">FEMININO</label> <br><br>
-            <label for="endereco">ENDEREÇO: <input type="text" id="endereco"></label><br><br>
-            <label for="tel">TELEFONE/CELULAR: <input type="text" id="tel"></label>
+            <label for="endereco">ENDEREÇO: <input type="text" id="endereco" required></label><br><br>
+            <label for="tel">TELEFONE/CELULAR: <input type="text" id="tel" placeholder="(00)00000-0000"required></label><br><br>
+            <label for="cursos">Selecione um curso</label><br>
+            <select name="cursos" id="cursos" required>
+                <optgroup label="TI">
+                    <option value="Google Clound">Google Clound</option>
+                    <option value="Python">Python</option>
+                </optgroup>
+                <optgroup label="Técnico">
+                    <option value="Técnico em admnistração">Técnico em admnistração</option>
+                    <option value="Manutenção de máquinas">Manutenção de máquinas</option>
+                </optgroup>
+                <optgroup label="Industrial">
+                    <option value="Solda">Solda</option>
+                    <option value="Eletrica">Elétrica</option>
+                    <option value="Mecanica">Mecanica</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <textarea name="msg" id="msg" cols="25" rows="10" maxlength="255" placeholder="Comentario"></textarea>
         </fieldset>
-        <fieldset>
-            <h3>Escolaridade</h3>
+        <br><br>
+        <fieldset id="cv">
+            <h3 id="escolaridade">Escolaridade</h3>
             <label for="escolaridade1"><input type="checkbox" id="escolaridade1">FUNDAMENTAL</label><br><br>
             <label for="escolaridade2"><input type="checkbox" id="escolaridade2">MÉDIO</label><br><br>
             <label for="escolaridade3"><input type="checkbox" id="escolaridade3">SUPERIOR</label><br>
             <h3>Experiência Profissional:</h3>
             <label for="experiencia"><input type="text"></label><br><br>
             <label for="cv">CÚRRICULO: <input type="file"></label><br><br>
-            <input type="submit">
         </fieldset>
-        <fieldset>
-            <label>
-                <input type="text" list="cursos">
-                <datalist id="cursos">
-                    
-                </datalist>
-            </label>
-        </fieldset>
+        <input type="submit">
     </form>
 </body>
 </html>
