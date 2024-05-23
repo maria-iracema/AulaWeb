@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding: 0;;
+}
+
+#ceu{
+    background-image: url("https://pa1.aminoapps.com/6904/0cb931dfc4ef79fb10671a645be30491d8bb9393r1-540-183_hq.gif");
+    background-size: cover;
+    width: 100%;
+    height: 62vh;
+}
+
+#chao{
+    background-color: #16c963;
+    width: 100%;
+    height: 36vh;
+}
